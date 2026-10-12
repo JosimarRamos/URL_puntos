@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Eje_Por_Tramos</name>
+    <description>Eje diferenciado por tramos con colores especificos</description>
+
+    <!-- ESTILOS DE COLOR POR TRAMO (Formato AABBGGRR) -->
+    <!-- Tramo 2: Rojo brillante -->
+    <Style id="estiloT02">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <!-- Tramo 3: Naranja -->
+    <Style id="estiloT03">
+      <LineStyle>
+        <color>ff0080ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <!-- PBII (Puente Belice II): Amarillo -->
+    <Style id="estiloPBII">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+
+    <!-- Tramo 4: Verde -->
+    <Style id="estiloT04">
+      <LineStyle>
+        <color>ff00bb00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <!-- Tramo 5: Cian / Celeste -->
+    <Style id="estiloT05">
+      <LineStyle>
+        <color>ffffff00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <!-- Tramo 6: Magenta / Violeta -->
+    <Style id="estiloT06">
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <!-- ==================== TRAMO 02 (ROJO) ==================== -->
+    <!-- Ramal Norte T02 -->
+    <Placemark>
+      <name>T02_E01 a T02_P12</name>
+      <description>Tramo 2 (Ramal Norte). Est. 1050.64 a 1071.94 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.497006,14.644428,0 -90.496835,14.644524,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P12 a T02_P13</name>
+      <description>Tramo 2 (Ramal Norte). Est. 1071.94 a 1093.24 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496835,14.644524,0 -90.496676,14.644640,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P13 a T02_P14</name>
+      <description>Tramo 2 (Ramal Norte). Est. 1093.24 a 1114.54 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496676,14.644640,0 -90.496532,14.644771,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P14 a T02_P15</name>
+      <description>Tramo 2 (Ramal Norte). Est. 1114.54 a 1135.84 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496532,14.644771,0 -90.496391,14.644906,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P15 a T02_P16</name>
+      <description>Tramo 2 (Ramal Norte). Est. 1135.84 a 1157.14 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496391,14.644906,0 -90.496250,14.645041,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P16 a T02_M01</name>
+      <description>Tramo 2 (Ramal Norte). Est. 1157.14 a 1179.22 (22.08 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496250,14.645041,0 -90.496123,14.645197,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- Ramal Sur T02 -->
+    <Placemark>
+      <name>T02_E02 a T02_P17</name>
+      <description>Tramo 2 (Ramal Sur). Est. 1025.56 a 1046.86 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.497479,14.645627,0 -90.497297,14.645551,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P17 a T02_P18</name>
+      <description>Tramo 2 (Ramal Sur). Est. 1046.86 a 1068.16 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.497297,14.645551,0 -90.497115,14.645475,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P18 a T02_P19</name>
+      <description>Tramo 2 (Ramal Sur). Est. 1068.16 a 1089.46 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.497115,14.645475,0 -90.496933,14.645400,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P19 a T02_P20</name>
+      <description>Tramo 2 (Ramal Sur). Est. 1089.46 a 1110.76 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496933,14.645400,0 -90.496751,14.645324,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P20 a T02_P21</name>
+      <description>Tramo 2 (Ramal Sur). Est. 1110.76 a 1132.06 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496751,14.645324,0 -90.496569,14.645249,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P21 a T02_P22</name>
+      <description>Tramo 2 (Ramal Sur). Est. 1132.06 a 1153.36 (21.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496569,14.645249,0 -90.496384,14.645183,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P22 a T02_M01</name>
+      <description>Tramo 2 (Ramal Sur). Est. 1153.36 a 1179.22 (25.86 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496384,14.645183,0 -90.496123,14.645197,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- Troncal T02 unificado -->
+    <Placemark>
+      <name>T02_M01 a T02_P00</name>
+      <description>Tramo 2. Est. 1179.22 a 1190.43 (11.21 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496123,14.645197,0 -90.496057,14.645276,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P00 a T02_P01</name>
+      <description>Tramo 2. Est. 1190.43 a 1221.73 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.496057,14.645276,0 -90.495875,14.645496,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P01 a T02_P02</name>
+      <description>Tramo 2. Est. 1221.73 a 1253.03 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.495875,14.645496,0 -90.495692,14.645716,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P02 a T02_P03</name>
+      <description>Tramo 2. Est. 1253.03 a 1284.33 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.495692,14.645716,0 -90.495509,14.645935,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P03 a T02_P04</name>
+      <description>Tramo 2. Est. 1284.33 a 1315.63 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.495509,14.645935,0 -90.495326,14.646156,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P04 a T02_P05</name>
+      <description>Tramo 2. Est. 1315.63 a 1346.94 (31.31 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.495326,14.646156,0 -90.495143,14.646376,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P05 a T02_P06</name>
+      <description>Tramo 2. Est. 1346.94 a 1378.23 (31.29 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.495143,14.646376,0 -90.494961,14.646595,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P06 a T02_P07</name>
+      <description>Tramo 2. Est. 1378.23 a 1409.53 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.494961,14.646595,0 -90.494778,14.646816,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P07 a T02_P08</name>
+      <description>Tramo 2. Est. 1409.53 a 1440.83 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.494778,14.646816,0 -90.494596,14.647036,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P08 a T02_P09</name>
+      <description>Tramo 2. Est. 1440.83 a 1472.13 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.494596,14.647036,0 -90.494413,14.647256,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P09 a T02_P10</name>
+      <description>Tramo 2. Est. 1472.13 a 1503.43 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.494413,14.647256,0 -90.494231,14.647476,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P10 a T02_P11</name>
+      <description>Tramo 2. Est. 1503.43 a 1534.73 (31.30 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.494231,14.647476,0 -90.494048,14.647696,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_P11 a T02_E03</name>
+      <description>Tramo 2. Est. 1534.73 a 1546.55 (11.82 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.494048,14.647696,0 -90.493960,14.647765,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_E03 a T02_M02</name>
+      <description>Tramo 2. Est. 1546.55 a 1565.47 (18.92 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.493960,14.647765,0 -90.493869,14.647913,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_M02 a T02_M03</name>
+      <description>Tramo 2. Est. 1565.47 a 1582.12 (16.65 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.493869,14.647913,0 -90.493771,14.648030,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_M03 a T02_M04</name>
+      <description>Tramo 2. Est. 1582.12 a 1602.12 (20.00 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.493771,14.648030,0 -90.493655,14.648170,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_M04 a T02_M05</name>
+      <description>Tramo 2. Est. 1602.12 a 1630.80 (28.68 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.493655,14.648170,0 -90.493487,14.648372,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_M05 a T02_M06</name>
+      <description>Tramo 2. Est. 1630.80 a 1660.91 (30.11 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.493487,14.648372,0 -90.493311,14.648583,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_M06 a T02_M07</name>
+      <description>Tramo 2. Est. 1660.91 a 1681.05 (20.14 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.493311,14.648583,0 -90.493194,14.648725,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T02_M07 a T02_M08</name>
+      <description>Tramo 2. Est. 1681.05 a 1701.18 (20.13 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.493194,14.648725,0 -90.493064,14.648855,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- Transición Tramo 2 a Tramo 3 -->
+    <Placemark>
+      <name>T02_M08 a T03_P01</name>
+      <description>Transición T02 a T03. Est. 1701.18 a 1719.62 (18.44 m)</description>
+      <styleUrl>#estiloT02</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.493064,14.648855,0 -90.492936,14.648977,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- ==================== TRAMO 03 (NARANJA) ==================== -->
+    <Placemark>
+      <name>T03_P01 a T03_P02</name>
+      <description>Tramo 3. Est. 1719.62 a 1740.92 (21.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.492936,14.648977,0 -90.492758,14.649061,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P02 a T03_P03</name>
+      <description>Tramo 3. Est. 1740.92 a 1762.22 (21.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.492758,14.649061,0 -90.492579,14.649145,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P03 a T03_P04</name>
+      <description>Tramo 3. Est. 1762.22 a 1783.45 (21.23 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.492579,14.649145,0 -90.492401,14.649228,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P04 a T03_P05</name>
+      <description>Tramo 3. Est. 1783.45 a 1804.23 (20.78 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.492401,14.649228,0 -90.492217,14.649299,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P05 a T03_P06</name>
+      <description>Tramo 3. Est. 1804.23 a 1825.01 (20.78 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.492217,14.649299,0 -90.492026,14.649348,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P06 a T03_P07</name>
+      <description>Tramo 3. Est. 1825.01 a 1845.79 (20.78 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.492026,14.649348,0 -90.491831,14.649376,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P07 a T03_P08</name>
+      <description>Tramo 3. Est. 1845.79 a 1866.57 (20.78 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.491831,14.649376,0 -90.491633,14.649382,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P08 a T03_P09</name>
+      <description>Tramo 3. Est. 1866.57 a 1887.52 (20.95 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.491633,14.649382,0 -90.491436,14.649367,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P09 a T03_P10</name>
+      <description>Tramo 3. Est. 1887.52 a 1908.82 (21.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.491436,14.649367,0 -90.491240,14.649347,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P10 a T03_P11</name>
+      <description>Tramo 3. Est. 1908.82 a 1940.12 (31.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.491240,14.649347,0 -90.490951,14.649317,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P11 a T03_P12</name>
+      <description>Tramo 3. Est. 1940.12 a 1971.42 (31.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.490951,14.649317,0 -90.490661,14.649288,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P12 a T03_P13</name>
+      <description>Tramo 3. Est. 1971.42 a 2002.72 (31.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.490661,14.649288,0 -90.490372,14.649258,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P13 a T03_P14</name>
+      <description>Tramo 3. Est. 2002.72 a 2034.02 (31.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.490372,14.649258,0 -90.490083,14.649229,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P14 a T03_P15</name>
+      <description>Tramo 3. Est. 2034.02 a 2065.32 (31.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.490083,14.649229,0 -90.489794,14.649199,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P15 a T03_P16</name>
+      <description>Tramo 3. Est. 2065.32 a 2096.62 (31.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.489794,14.649199,0 -90.489505,14.649170,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P16 a T03_P17</name>
+      <description>Tramo 3. Est. 2096.62 a 2127.92 (31.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.489505,14.649170,0 -90.489216,14.649140,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P17 a T03_P18</name>
+      <description>Tramo 3. Est. 2127.92 a 2159.22 (31.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.489216,14.649140,0 -90.488927,14.649110,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P18 a T03_P19</name>
+      <description>Tramo 3. Est. 2159.22 a 2180.60 (21.38 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.488927,14.649110,0 -90.488730,14.649092,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P19 a T03_P20</name>
+      <description>Tramo 3. Est. 2180.60 a 2202.00 (21.40 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.488730,14.649092,0 -90.488533,14.649077,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P20 a T03_P21</name>
+      <description>Tramo 3. Est. 2202.00 a 2223.39 (21.39 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.488533,14.649077,0 -90.488336,14.649066,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P21 a T03_P22</name>
+      <description>Tramo 3. Est. 2223.39 a 2244.74 (21.35 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.488336,14.649066,0 -90.488138,14.649059,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P22 a T03_P23</name>
+      <description>Tramo 3. Est. 2244.74 a 2266.04 (21.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.488138,14.649059,0 -90.487941,14.649052,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P23 a T03_P24</name>
+      <description>Tramo 3. Est. 2266.04 a 2287.34 (21.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.487941,14.649052,0 -90.487743,14.649046,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P24 a T03_P25</name>
+      <description>Tramo 3. Est. 2287.34 a 2308.64 (21.30 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.487743,14.649046,0 -90.487545,14.649039,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P25 a T03_P26</name>
+      <description>Tramo 3. Est. 2308.64 a 2329.53 (20.89 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.487545,14.649039,0 -90.487348,14.649032,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P26 a T03_P27</name>
+      <description>Tramo 3. Est. 2329.53 a 2350.36 (20.83 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.487348,14.649032,0 -90.487153,14.648999,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_P27 a T03_M01</name>
+      <description>Tramo 3. Est. 2350.36 a 2356.25 (5.89 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.487153,14.648999,0 -90.487102,14.648976,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_M01 a T03_M02</name>
+      <description>Tramo 3. Est. 2356.25 a 2365.89 (9.64 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.487102,14.648976,0 -90.487020,14.648935,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_M02 a T03_M03</name>
+      <description>Tramo 3. Est. 2365.89 a 2375.18 (9.29 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.487020,14.648935,0 -90.486942,14.648887,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_M03 a T03_M04</name>
+      <description>Tramo 3. Est. 2375.18 a 2384.42 (9.24 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.486942,14.648887,0 -90.486863,14.648848,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T03_M04 a PBII_E01</name>
+      <description>Transición Tramo 3 a Puente Belice II. Est. 2384.42 a 2390.43 (6.01 m)</description>
+      <styleUrl>#estiloT03</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.486863,14.648848,0 -90.486812,14.648824,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- ==================== PUENTE BELICE II (AMARILLO) ==================== -->
+    <Placemark>
+      <name>PBII_E01 a PBII_P01</name>
+      <description>Puente Belice II. Estribo Norte a Pila 1 (Est. 2390.43 a 2676.36)</description>
+      <styleUrl>#estiloPBII</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.486812,14.648824,0 -90.486194,14.648339,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>PBII_P01 a PBII_P02</name>
+      <description>Puente Belice II. Tramo Central entre Pilas</description>
+      <styleUrl>#estiloPBII</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.486194,14.648339,0 -90.485478,14.647778,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>PBII_P02 a PBII_E02</name>
+      <description>Puente Belice II. Pila 2 a Estribo Sur</description>
+      <styleUrl>#estiloPBII</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.485478,14.647778,0 -90.484860,14.647293,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- ==================== TRAMO 04 (VERDE) ==================== -->
+    <Placemark>
+      <name>PBII_E02 a T04_M01</name>
+      <description>Tramo 4. Inicio Muros Tramo 4 (Est. 2587.00 a 2681.93)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484860,14.647293,0 -90.484817,14.647259,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_M01 a T04_M02</name>
+      <description>Tramo 4. Est. 2681.93 a 2688.30 (6.37 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484817,14.647259,0 -90.484768,14.647221,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_M02 a T04_M03</name>
+      <description>Tramo 4. Est. 2688.30 a 2700.21 (11.91 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484768,14.647221,0 -90.484681,14.647146,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_M03 a T04_M04</name>
+      <description>Tramo 4. Est. 2700.21 a 2712.21 (12.00 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484681,14.647146,0 -90.484601,14.647063,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_M04 a T04_M05</name>
+      <description>Tramo 4. Est. 2712.21 a 2723.46 (11.25 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484601,14.647063,0 -90.484527,14.646986,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_M05 a T04_P01</name>
+      <description>Tramo 4. Est. 2723.46 a 2730.56 (7.10 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484527,14.646986,0 -90.484446,14.646968,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P01 a T04_P02</name>
+      <description>Tramo 4. Est. 2730.56 a 2752.17 (21.61 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484446,14.646968,0 -90.484292,14.646847,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P02 a T04_P03</name>
+      <description>Tramo 4. Est. 2752.17 a 2759.33 (7.16 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484292,14.646847,0 -90.484138,14.646727,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P03 a T04_P04</name>
+      <description>Tramo 4. Est. 2759.33 a 2780.63 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484138,14.646727,0 -90.484984,14.646606,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P04 a T04_P05</name>
+      <description>Tramo 4. Est. 2780.63 a 2801.93 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.483984,14.646606,0 -90.483830,14.646485,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P05 a T04_P06</name>
+      <description>Tramo 4. Est. 2801.93 a 2823.23 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.483830,14.646485,0 -90.483676,14.646364,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P06 a T04_P07</name>
+      <description>Tramo 4. Est. 2823.23 a 2844.53 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.483676,14.646364,0 -90.483522,14.646244,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P07 a T04_P08</name>
+      <description>Tramo 4. Est. 2844.53 a 2865.83 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.483522,14.646244,0 -90.483368,14.646123,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P08 a T04_P09</name>
+      <description>Tramo 4. Est. 2865.83 a 2887.13 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.483368,14.646123,0 -90.483214,14.646002,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P09 a T04_P10</name>
+      <description>Tramo 4. Est. 2887.13 a 2908.43 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.483214,14.646002,0 -90.483059,14.645882,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P10 a T04_P11</name>
+      <description>Tramo 4. Est. 2908.43 a 2929.73 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.483059,14.645882,0 -90.482905,14.645762,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P11 a T04_P12</name>
+      <description>Tramo 4. Est. 2929.73 a 2951.03 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.482905,14.645762,0 -90.482750,14.645641,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P12 a T04_P13</name>
+      <description>Tramo 4. Est. 2951.03 a 2972.33 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.482750,14.645641,0 -90.482596,14.645521,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P13 a T04_P14</name>
+      <description>Tramo 4. Est. 2972.33 a 2993.63 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.482596,14.645521,0 -90.482442,14.645400,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P14 a T04_P15</name>
+      <description>Tramo 4. Est. 2993.63 a 3014.93 (21.30 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.482442,14.645400,0 -90.482289,14.645278,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P15 a T04_P16</name>
+      <description>Tramo 4. Est. 3014.93 a 3036.38 (21.45 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.482289,14.645278,0 -90.482136,14.645156,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_P16 a T04_M06</name>
+      <description>Tramo 4. Est. 3036.38 a 3047.54 (11.16 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.482136,14.645156,0 -90.482081,14.645060,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T04_M06 a T04_M07</name>
+      <description>Tramo 4. Est. 3047.54 a 3079.20 (31.66 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.482081,14.645060,0 -90.481834,14.644905,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- Transición Tramo 4 a Tramo 5 -->
+    <Placemark>
+      <name>T04_M07 a T05_M01</name>
+      <description>Transición T04 a T05. Est. 3079.20 a 3111.23 (32.03 m)</description>
+      <styleUrl>#estiloT04</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.481834,14.644905,0 -90.481565,14.644780,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- ==================== TRAMO 05 (CIAN / CELESTE) ==================== -->
+    <Placemark>
+      <name>T05_M01 a T05_M02</name>
+      <description>Tramo 5. Est. 3111.23 a 3136.77 (25.54 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.481565,14.644780,0 -90.481343,14.644699,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_M02 a T05_M03</name>
+      <description>Tramo 5. Est. 3136.77 a 3160.44 (23.67 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.481343,14.644699,0 -90.481132,14.644641,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_M03 a T05_M04</name>
+      <description>Tramo 5. Est. 3160.44 a 3185.89 (25.45 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.481132,14.644641,0 -90.480900,14.644596,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_M04 a T05_M05</name>
+      <description>Tramo 5. Est. 3185.89 a 3214.28 (28.39 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.480900,14.644596,0 -90.480639,14.644569,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_M05 a T05_P01</name>
+      <description>Tramo 5. Est. 3214.28 a 3241.13 (26.85 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.480639,14.644569,0 -90.480389,14.644566,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P01 a T05_P02</name>
+      <description>Tramo 5. Est. 3241.13 a 3262.43 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.480389,14.644566,0 -90.480192,14.644574,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P02 a T05_P03</name>
+      <description>Tramo 5. Est. 3262.43 a 3283.73 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.480192,14.644574,0 -90.479994,14.644582,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P03 a T05_P04</name>
+      <description>Tramo 5. Est. 3283.73 a 3305.03 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.479994,14.644582,0 -90.479797,14.644591,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P04 a T05_P05</name>
+      <description>Tramo 5. Est. 3305.03 a 3326.33 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.479797,14.644591,0 -90.479599,14.644599,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P05 a T05_P06</name>
+      <description>Tramo 5. Est. 3326.33 a 3347.63 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.479599,14.644599,0 -90.479401,14.644607,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P06 a T05_P07</name>
+      <description>Tramo 5. Est. 3347.63 a 3368.93 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.479401,14.644607,0 -90.479204,14.644607,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P07 a T05_P08</name>
+      <description>Tramo 5. Est. 3368.93 a 3390.23 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.479204,14.644607,0 -90.479006,14.644596,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P08 a T05_P09</name>
+      <description>Tramo 5. Est. 3390.23 a 3411.53 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.479006,14.644596,0 -90.478809,14.644580,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P09 a T05_P10</name>
+      <description>Tramo 5. Est. 3411.53 a 3432.83 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.478809,14.644580,0 -90.478612,14.644563,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P10 a T05_P11</name>
+      <description>Tramo 5. Est. 3432.83 a 3454.13 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.478612,14.644563,0 -90.478415,14.644553,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P11 a T05_P12</name>
+      <description>Tramo 5. Est. 3454.13 a 3475.43 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.478415,14.644553,0 -90.478217,14.644547,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P12 a T05_P13</name>
+      <description>Tramo 5. Est. 3475.43 a 3496.73 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.478217,14.644547,0 -90.478019,14.644547,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P13 a T05_P14</name>
+      <description>Tramo 5. Est. 3496.73 a 3518.03 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.478019,14.644547,0 -90.477822,14.644556,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P14 a T05_P15</name>
+      <description>Tramo 5. Est. 3518.03 a 3539.33 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.477822,14.644556,0 -90.477625,14.644574,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P15 a T05_P16</name>
+      <description>Tramo 5. Est. 3539.33 a 3560.63 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.477625,14.644574,0 -90.477429,14.644602,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P16 a T05_P17</name>
+      <description>Tramo 5. Est. 3560.63 a 3581.93 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.477429,14.644602,0 -90.477235,14.644640,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P17 a T05_P18</name>
+      <description>Tramo 5. Est. 3581.93 a 3603.23 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.477235,14.644640,0 -90.477043,14.644687,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P18 a T05_P19</name>
+      <description>Tramo 5. Est. 3603.23 a 3624.53 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.477043,14.644687,0 -90.476854,14.644743,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P19 a T05_P20</name>
+      <description>Tramo 5. Est. 3624.53 a 3645.83 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.476854,14.644743,0 -90.476668,14.644808,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P20 a T05_P21</name>
+      <description>Tramo 5. Est. 3645.83 a 3667.13 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.476668,14.644808,0 -90.476486,14.644882,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P21 a T05_P22</name>
+      <description>Tramo 5. Est. 3667.13 a 3688.43 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.476486,14.644882,0 -90.476307,14.644964,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P22 a T05_P23</name>
+      <description>Tramo 5. Est. 3688.43 a 3709.73 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.476307,14.644964,0 -90.476133,14.645055,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T05_P23 a T05_P24</name>
+      <description>Tramo 5. Est. 3709.73 a 3731.03 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.476133,14.645055,0 -90.475963,14.645155,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- Transición Tramo 5 a Tramo 6 -->
+    <Placemark>
+      <name>T05_P24 a T06_P01</name>
+      <description>Transición T05 a T06. Est. 3731.03 a 3752.33 (21.30 m)</description>
+      <styleUrl>#estiloT05</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.475963,14.645155,0 -90.475799,14.645262,0</coordinates></LineString>
+    </Placemark>
+
+    <!-- ==================== TRAMO 06 (MAGENTA) ==================== -->
+    <Placemark>
+      <name>T06_P01 a T06_P02</name>
+      <description>Tramo 6. Est. 3752.33 a 3773.63 (21.30 m)</description>
+      <styleUrl>#estiloT06</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.475799,14.645262,0 -90.475641,14.645377,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T06_P02 a T06_P03</name>
+      <description>Tramo 6. Est. 3773.63 a 3794.93 (21.30 m)</description>
+      <styleUrl>#estiloT06</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.475641,14.645377,0 -90.475489,14.645500,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T06_P03 a T06_P04</name>
+      <description>Tramo 6. Est. 3794.93 a 3816.23 (21.30 m)</description>
+      <styleUrl>#estiloT06</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.475489,14.645500,0 -90.475343,14.645630,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T06_P04 a T06_P05</name>
+      <description>Tramo 6. Est. 3816.23 a 3837.53 (21.30 m)</description>
+      <styleUrl>#estiloT06</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.475343,14.645630,0 -90.475204,14.645767,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T06_P05 a T06_M01</name>
+      <description>Tramo 6. Est. 3837.53 a 3858.83 (21.30 m)</description>
+      <styleUrl>#estiloT06</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.475204,14.645767,0 -90.475072,14.645910,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T06_M01 a T06_M02</name>
+      <description>Tramo 6. Est. 3858.83 a 3874.30 (15.47 m)</description>
+      <styleUrl>#estiloT06</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.475072,14.645910,0 -90.474980,14.646018,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T06_M02 a T06_M03</name>
+      <description>Tramo 6. Est. 3874.30 a 3893.05 (18.75 m)</description>
+      <styleUrl>#estiloT06</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.474980,14.646018,0 -90.474875,14.646153,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>T06_M03 a T06_M04</name>
+      <description>Tramo 6. Est. 3893.05 a 3924.51 (31.46 m)</description>
+      <styleUrl>#estiloT06</styleUrl>
+      <LineString><tessellate>1</tessellate><coordinates>-90.474875,14.646153,0 -90.474905,14.646398,0</coordinates></LineString>
+    </Placemark>
+  </Document>
+</kml>
