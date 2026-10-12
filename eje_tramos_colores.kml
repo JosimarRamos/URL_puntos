@@ -527,7 +527,7 @@
       <name>T04_P03 a T04_P04</name>
       <description>Tramo 4. Est. 2759.33 a 2780.63 (21.30 m)</description>
       <styleUrl>#estiloT04</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-90.484138,14.646727,0 -90.484984,14.646606,0</coordinates></LineString>
+      <LineString><tessellate>1</tessellate><coordinates>-90.484138,14.646727,0 -90.483984,14.646606,0</coordinates></LineString>
     </Placemark>
     <Placemark>
       <name>T04_P04 a T04_P05</name>
